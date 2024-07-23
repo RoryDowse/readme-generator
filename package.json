@@ -1,15 +1,27 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generates a README.md file",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Rory Dowse",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoryDowse/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/RoryDowse/readme-generator/issues"
+  },
+  "homepage": "https://github.com/RoryDowse/readme-generator#readme"
 }
