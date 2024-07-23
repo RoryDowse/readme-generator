@@ -1,27 +1,34 @@
 {
-  "name": "readme-generator",
+  "name": "",
   "version": "1.0.0",
-  "description": "Generates a README.md file",
+  "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
   },
-  "author": "Rory Dowse",
-  "license": "MIT",
-  "dependencies": {
-    "inquirer": "8.2.4"
-  },
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RoryDowse/readme-generator.git"
+    "url": ""
   },
-  "keywords": [
-    "readme",
-    "generator"
-  ],
-  "bugs": {
-    "url": "https://github.com/RoryDowse/readme-generator/issues"
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
   },
-  "homepage": "https://github.com/RoryDowse/readme-generator#readme"
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^10.1.2"
+  }
 }
