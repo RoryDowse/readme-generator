@@ -45,7 +45,7 @@ const questions = [
   {
     name: "license",
     type: "list",
-    message: "Provide instructions and examples for testing your project.",
+    message: "Select the license for your project.",
     choices: ["MIT", "Apache", "GPL", "None"],
   },
   {
@@ -85,7 +85,7 @@ function writeToFile(fileName, data) {
     if (err) {
       console.error(err);
     } else {
-      console.log("${fileName} created successfully!");
+      console.log(`${fileName} created successfully!`);
     }
   });
 }
