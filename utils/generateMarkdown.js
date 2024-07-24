@@ -24,11 +24,11 @@ function renderLicenseBadge(license) {
  */
 function renderLicenseLink(license) {
   if (license === "MIT") {
-    return "https://opensource.org/licenses/MIT";
+    return "(https://opensource.org/licenses/MIT)";
   } else if (license === "Apache") {
-    return "https://opensource.org/license/apache-2-0";
+    return "(https://opensource.org/license/apache-2-0)";
   } else if (license === "GPL") {
-    return "https://www.gnu.org/licenses/gpl-3.0";
+    return "(https://www.gnu.org/licenses/gpl-3.0)";
   } else {
     return "";
   }
@@ -75,8 +75,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${licenseBadge}
-${renderLicenseLink(data.license)}
+${licenseBadge}${renderLicenseLink(data.license)}
 ${renderLicenseSection(data.license)}
 
 ## Contributing
@@ -84,10 +83,11 @@ ${data.contributing}
 
 ## Tests
 ${data.tests}
-${data.github}
-${data.email}
+
 
 ## Questions
+Please visit my GitHub profile: https://github.com/${data.github}.
+For additional questions, please contact me at: ${data.email}.
 `;
 }
 
