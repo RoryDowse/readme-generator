@@ -2,6 +2,12 @@
 
 # Professional README Generator
 
+## Introduction
+
+Welcome to Professional README Generator! This project is designed to make a professional README file for your project. Watch the video below for a quick overview and demo of the project:
+
+https://drive.google.com/file/d/1Z5uzQfWhapHrhtFWBnabrZc9ubGvrIOE/view?usp=sharing
+
 ## Description
 
 The project was made to provide a runtime environment that would create professional README markup for development projects. The project provides a template for creating a README file by prompting the user with questions in the Command Line Interface (CLI). This optimizes the process of generating a README file using prompts and formatting the inputs with the provided template in markdown format. During this project, I developed a deeper understanding of creating a README file, including the format of the file, and also developed experience in initializing and installing node and inquirer packages, importing modules, prompting questions, then writing to file, and catching errors.
