@@ -1,10 +1,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Professional README Generator
+# Financial Landing Page
 
 ## Description
-The project was made to provide a runtime environment that would create professional README markup for development projects. The project provides a template for creating a README file by prompting the user with questions in the Command Line Interface (CLI). This optimizes the process of generating a README file using prompts and formatting the inputs with the provided template in markdown format. During this project, I developed a deeper understanding of creating a README file, including the format of the file, and also developed experience in initializing and installing node and inquirer packages, importing modules, prompting questions, then writing to file, and catching errors.
+I built the Financial Landing Page to model a real-world credit card landing page for banks, drawing inspiration from American Express, Chase, and Wells Fargo to balance aesthetics, usability, and performance. The design incorporates sticky call-to-actions, flipping and sliding cards, and a clean layout to enhance user engagement. Built with Next.js, the project leverages server-side rendering for speed, SEO optimization, and Open Graph metadata for discoverability. I applied Object-Oriented Programming (OOP) principles by creating a bank superclass and credit card subclasses for scalability, allowing for future expansion and database integration. Styled with Tailwind CSS and deployed on Vercel, the project showcases modern web development best practices while refining my skills in Next.js, component-driven design, and performance optimization.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,39 +15,80 @@ The project was made to provide a runtime environment that would create professi
 - [Questions](#questions)
 
 ## Installation
-1. Open a terminal or command prompt. 
-2. Navigate to the directory where the package is located. 
-3. Run “npm install” to install the package and its dependencies.
+1. **Clone the repository**
 
+   Start by cloning the repository to your local machine using the following command:
+
+   ```bash
+   git clone git@github.com:RoryDowse/financial-landing-page.git
+   ```
+
+2. **Install dependencies**
+
+   Install the necessary dependencies with npm:
+
+   ```bash
+   npm i
+   ```
+
+3. **Run the application**
+
+   Run in development mode:
+
+   ```bash
+   npm run dev
+   ```
 
 ## Usage
-1. Run “node index.js” to start the program. 
-2. Respond to the prompts to input information, or press return to leave blank. 
-3. Select the license for your project using the up and down keys, or select “none”. 
-4. The file “README-generated.md” will be generated and the message “README-generated.md created successfully!” displayed, or an error message will be displayed.
+Please note that all links are "dummy" links and are not connected to another page.
 
-![CLI Instructions](assets/images/cli-instructions.png)
+1. **View Menu**
 
-![README-generated-file](assets/images/readme-generated-file.png)
+- toggle the menu via the hamburger button (mobile and tablet only)
 
+
+2. **Search Site**
+
+- toggle the search feature and input text to search the site
+
+3. **Back to All Cards**
+
+- return to the previous menu to explore all cards
+
+4. **View All Cards**
+
+- toggle the menu to view all cards
+
+5. **View Product**
+
+- explore the product with large images in the hero and call to action sections with transition overlay for increased engagement 
+
+6. **Apply Now**
+
+- apply for the card via multiple Calls To Action, including hero section, the sticky footer, and the call to action section for increased conversions
+
+7. **Interactive Cards**
+
+- Learn more about the product via interactive cards including flip and slide effects for increased user engagement.
+
+
+Mobile Screenshot:
+![Mobile Screenshot](assets/images/mobile-screenshot.png)
+
+Tablet Screenshot:
+![Tablet Screenshot](assets/images/tablet-screenshot.png)
+
+Desktop Screenshot:
+![Desktop Screenshot](assets/images/desktop-screenshot.png)
 
 ## License
 This project is licensed under the MIT license.
 
 ## Contributing
-- Author: 
-[Rory Dowse](https://github.com/RoryDowse). 
-
-- Third-party assets: 
-[fs](https://nodejs.org/api/fs.html) - Node.js module for working with the file system; [inquirer](https://www.npmjs.com/package/inquirer) - Node.js module for collecting user input.
-
+Next.js Docs: https://nextjs.org/docs
+Tailwind Docs: https://v2.tailwindcss.com/docs
 
 ## Tests
-1. Open the terminal or command prompt and navigate to the directory where your index.js file is located.
-2. Run the command node index.js to execute the file.
-3. The application will prompt you with a series of questions. After answering all the questions, the application will generate a README file based on the provided input. 
-4. Open the generated README file, which is saved in the current directory with the name README-generated.md.
-5. You can verify the functionality of the application by checking the generated README and ensuring that it contains the correct information entered by the user.
 
 
 
